@@ -1,0 +1,106 @@
+@media only screen and (min-width: 720px) {
+    .jumbotron {
+        height: 900px;
+    }
+
+    .navbar {
+        padding-left: 50px;
+    }
+
+    .jumbotron h1 {
+        font-size: 120px;
+        font-weight: bold;
+        padding: 30px;
+    }
+
+    .card {
+        width: 22rem;
+        ;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+.jumbotron {
+    text-align: end;
+    background-image: url("/assets/img/bg-hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.lead {
+    width: 50%;
+    display: inline-flex;
+}
+
+.jumbotron .btn-primary {
+    background-color: #17A2B8;
+    border-color: #17A2B8;
+}
+
+.jumbotron .btn-outline-primary {
+    border-color: #17A2B8;
+    color: white;
+}
+
+#work-section {
+    background-color: #17A2B8;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+#work-section .btn-outline-primary {
+    border-color: #17A2B8;
+    color: #17A2B8;
+}
+
+
+#work-section h1 {
+    color: white;
+    margin-bottom: 50px;
+}
+
+#work-section .row {
+    text-align: center;
+    justify-content: center;
+}
+
+#work-section .row .card {
+    height: 550px;
+}
+
+#contact {
+    padding: 90px;
+    text-align: center;
+}
+
+#contact .form-group {
+    text-align: left;
+
+}
+
+#contact .btn-primary {
+    background-color: #17A2B8;
+    color: white;
+    text-align: end;
+
+}
+
+#about-me {
+    padding: 90px;
+    text-align: center;
+}
